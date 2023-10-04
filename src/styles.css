@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-h3{
-  color:darkgreen;
+body{
+  font-size: large;
 }
+.container{
+  border: 5px solid green;
+}
+app-root{
+  border: 5px solid red;
+}
+app-product{
+  border: 5px solid blue;
+}
+app-product-row{
+  border: 5px solid black;
+}
+
