@@ -1,0 +1,25 @@
+<h3> Add item </h3>
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="id">ID</label>
+    <input type="number" id="id" name="id" [(ngModel)]="formData.id" required>
+  </div>
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="quantity">Quantity</label>
+    <input type="number" id="quantity" name="quantity" [(ngModel)]="formData.quantity" required>
+  </div>
+
+  <div class="form-group">
+    <label for="price">Price</label>
+    <input type="number" id="price" name="price" [(ngModel)]="formData.price" required>
+  </div>
+
+  <button type="submit">Add Product</button>
+</form>
+
