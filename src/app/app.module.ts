@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { AppProductComponent } from './app-product/app-product.component';
 import { AppProductRowComponent } from './app-product-row/app-product-row.component';
 import { AppProductsComponent } from './app-products/app-products.component';
+import {AppFormComponent} from "./app-form/app-form.component";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -12,9 +14,11 @@ import { AppProductsComponent } from './app-products/app-products.component';
     AppProductComponent,
     AppProductRowComponent,
     AppProductsComponent,
+    AppFormComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
