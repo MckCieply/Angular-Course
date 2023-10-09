@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Product} from "./product.model";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Course';
+
+  receivedProducts: Product[] = []
+
+  onSubmitProduct(product: Product) {
+    // Handle the submitted Product object in the parent component
+    this.receivedProducts.push(product);
+    console.log(this.receivedProducts);
+
+  }
 }

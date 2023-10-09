@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import { Product } from "../product.model";
 
 @Component({
@@ -9,8 +9,8 @@ import { Product } from "../product.model";
 export class AppFormComponent {
   formData: Product = new Product(0, '', 0, 0);
 
-  productList: Product[] = [];
 
+  @Output() submitData = new EventEmitter<Product>();
   onSubmit() {
     const newProduct = new Product(
       this.formData.id,
@@ -19,8 +19,8 @@ export class AppFormComponent {
       this.formData.price
     );
 
-    this.productList.push(newProduct)
 
+    this.submitData.emit(newProduct)
     this.formData = new Product(0, '', 0, 0);
   }
 }
