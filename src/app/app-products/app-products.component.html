@@ -1,4 +1,3 @@
 <h2>Products:</h2>
-
-<app-product ></app-product>
+<app-product  *ngFor="let product of receivedProducts" [product]="product"></app-product>
 
