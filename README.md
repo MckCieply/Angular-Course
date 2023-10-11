@@ -1,4 +1,7 @@
-# AngularCourse
+# Angular-First-Take
+## Project is based on knowledge from an Udemy Course, Googling skills and some GPT assistance(not so usefull the last one)
+However the idea behind a project is to build it up to REST functionallity and integrate it with my other project (namely Spring-Shopping Cart) 
+to build Full-Stack RESTfull website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
