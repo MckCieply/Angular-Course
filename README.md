@@ -1,3 +1,8 @@
+# Already moved and connected with Spring
+https://github.com/MckCieply/Spring-Angular-ShoppingCart
+
+## This repository is not maintained, all effort is in connected repository https://github.com/MckCieply/Spring-Angular-ShoppingCart
+
 # Angular-First-Take
 ## Project is based on knowledge from an Udemy Course, Googling skills and some GPT assistance(not so usefull the last one)
 However the idea behind a project is to build it up to REST functionallity and integrate it with my other project (namely Spring-Shopping Cart) 
